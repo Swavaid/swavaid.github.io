@@ -1,0 +1,4 @@
+baseURL = 'https://swavaid.github.io/'
+languageCode = 'en-us'
+title = 'Jiahao Xuan'
+theme = "PaperMod"
