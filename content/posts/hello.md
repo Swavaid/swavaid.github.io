@@ -1,7 +1,12 @@
 ---
-title: "Hello Hugo"
-date: 2026-01-22
+title: "Redesigning this site as an academic homepage"
+date: 2026-06-30
 draft: false
+description: "A short note on turning this site into an academic homepage."
 ---
 
-这是我的第一篇文章，用来验证部署流程是否正确。
+This site started as a lightweight Hugo and GitHub Pages experiment. It is now being redesigned as an academic homepage.
+
+The goal is to keep a clear record of research interests, publications, teaching, CV updates, and short notes.
+
+The first version is intentionally simple: a stable structure first, then the real academic details.

@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <section class="page not-found">
+    <p class="eyebrow">404</p>
+    <h1>这个页面还没有准备好。</h1>
+    <p>回到首页，或者看看已经整理好的文章。</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="{{ "/" | relURL }}">Home</a>
+      <a class="button" href="{{ "/posts/" | relURL }}">Writing</a>
+    </div>
+  </section>
+{{ end }}

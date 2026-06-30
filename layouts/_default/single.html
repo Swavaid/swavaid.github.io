@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <article class="page">
+    <header class="page-header">
+      <p class="eyebrow">{{ if eq .Section "posts" }}Writing{{ else }}Page{{ end }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ if .Date }}
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+      {{ end }}
+    </header>
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}
