@@ -53,10 +53,7 @@
       <ul class="publication-list">
         {{ range .Params.publications }}
           <li>
-            <strong>{{ .title }}</strong>
-            {{ range .links }}
-              <a href="{{ .url }}">[{{ .label }}]</a>
-            {{ end }}<br>
+            <strong>{{ .title }}</strong>{{ range .links }}&nbsp;<a href="{{ .url }}">[{{ .label }}]</a>{{ end }}<br>
             <em>{{ .venue }}</em><br>
             {{ .authors }}
           </li>
