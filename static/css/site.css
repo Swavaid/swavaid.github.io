@@ -80,8 +80,8 @@ img {
 
 .profile-header {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 142px;
-  gap: 30px;
+  grid-template-columns: minmax(0, 1fr) 124px;
+  gap: 24px;
   align-items: start;
   margin-bottom: 34px;
 }
@@ -144,8 +144,8 @@ li {
 }
 
 .portrait {
-  width: 142px;
-  height: 142px;
+  width: 124px;
+  height: 124px;
   display: grid;
   place-items: center;
   border: 1px solid var(--line);
@@ -163,6 +163,12 @@ li {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 2rem;
   font-weight: 700;
+}
+
+@media (min-width: 920px) {
+  .intro-paragraph-0 {
+    white-space: nowrap;
+  }
 }
 
 .simple-section {

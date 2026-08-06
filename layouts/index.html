@@ -6,8 +6,8 @@
         <p class="role-line">{{ .Params.profile.role }}, {{ .Params.profile.affiliation }}</p>
         <p class="location-line">{{ .Params.profile.location }}</p>
         <p class="intro-title">{{ .Params.intro.title }}</p>
-        {{ range .Params.intro.paragraphs }}
-          <p>{{ . }}</p>
+        {{ range $index, $paragraph := .Params.intro.paragraphs }}
+          <p class="intro-paragraph intro-paragraph-{{ $index }}">{{ $paragraph }}</p>
         {{ end }}
         <p class="link-line">
           {{ range .Params.profile.links }}
