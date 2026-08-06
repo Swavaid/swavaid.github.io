@@ -1,9 +1,13 @@
 {{ define "main" }}
   <div class="academic-layout">
     <aside class="profile-panel">
-      <div class="portrait" aria-label="{{ .Params.profile.name }} portrait placeholder">
-        <span>JX</span>
-      </div>
+      {{ if fileExists "static/images/profile.jpg" }}
+        <img class="portrait portrait-photo" src="{{ "images/profile.jpg" | relURL }}" alt="{{ .Params.profile.name }}">
+      {{ else }}
+        <div class="portrait" aria-label="{{ .Params.profile.name }} portrait placeholder">
+          <span>JX</span>
+        </div>
+      {{ end }}
       <h1>{{ .Params.profile.name }}</h1>
       <p class="role">{{ .Params.profile.role }}</p>
       <p class="affiliation">{{ .Params.profile.affiliation }}</p>

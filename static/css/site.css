@@ -127,6 +127,12 @@ img {
   background: linear-gradient(135deg, #dfeaf2, #ffffff);
 }
 
+.portrait-photo {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
 .portrait span {
   color: var(--navy);
   font-size: 2.35rem;

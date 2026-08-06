@@ -5,12 +5,11 @@ description: "Academic CV summary."
 
 ## Education
 
-- **PhD Student**, Institution to be updated, Year-present.
-- Previous degree, Institution, Year.
+- **PhD Student**, Monash University, 2025-present.
 
 ## Research Experience
 
-- Add research assistantships, lab projects, thesis work, or collaborations here.
+- Research in lattice-based cryptography under the supervision of Amin Sakzad, Ron Steinfeld, and Muhammad Esgin.
 
 ## Publications
 
@@ -18,7 +17,7 @@ See [Publications](/publications/).
 
 ## Awards and Service
 
-- Add scholarships, awards, reviewing, mentoring, or service activities here.
+- To be updated.
 
 ## Download
 

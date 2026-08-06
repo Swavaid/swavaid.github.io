@@ -5,16 +5,12 @@ description: "Selected publications, preprints, and working papers."
 
 ## Selected Publications
 
-1. **Publication title to be added**. Jiahao Xuan, Coauthor Name. Conference / Journal, Year.
-   [paper](#) · [code](#)
-
-2. **Preprint or working paper to be added**. Jiahao Xuan. Working paper.
-   [draft](#)
+Publication list to be updated. For the latest profile, see [Google Scholar](https://scholar.google.com/citations?user=LlPpVCMAAAAJ&hl=en).
 
 ## Preprints
 
-Add preprints or manuscripts under review here.
+To be updated.
 
 ## Talks
 
-Add invited talks, conference presentations, posters, or reading group presentations here.
+To be updated.

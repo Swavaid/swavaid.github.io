@@ -3,18 +3,18 @@ title: "Research"
 description: "Research interests and current directions."
 ---
 
-My research page is being organized around a few central questions.
+My research focuses on lattice-based cryptography and post-quantum cryptographic foundations.
 
 ## Research Interests
 
-- **Research Area 1:** Replace this with your primary PhD topic.
-- **Research Area 2:** Add a second line of work, method, or application domain.
-- **Research Area 3:** Add broader interests that may be relevant for collaboration.
+- **Lattice-based cryptography:** cryptographic constructions and assumptions based on hard lattice problems.
+- **Post-quantum cryptography:** protocols and primitives designed to remain secure against quantum adversaries.
+- **Cryptographic foundations:** mathematical tools, security models, and proof techniques for modern cryptography.
 
 ## Current Work
 
-This section can include an overview of your dissertation topic, research questions, datasets, methods, systems, or ongoing collaborations.
+I started my PhD at Monash University in 2025, supervised by Amin Sakzad, Ron Steinfeld, and Muhammad Esgin.
 
 ## Keywords
 
-Add field-specific keywords here, such as machine learning, software engineering, human-computer interaction, data science, security, natural language processing, or any area that better matches your PhD.
+Lattice-based cryptography, post-quantum cryptography, cryptographic protocols, security proofs.
