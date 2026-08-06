@@ -53,19 +53,19 @@
       <ul class="publication-list">
         {{ range .Params.publications }}
           <li>
-            <strong>{{ .title }}</strong><br>
-            {{ .authors }}<br>
-            <em>{{ .venue }}</em>
+            <strong>{{ .title }}</strong>
             {{ range .links }}
               <a href="{{ .url }}">{{ .label }}</a>
-            {{ end }}
+            {{ end }}<br>
+            {{ .authors }}<br>
+            <em>{{ .venue }}</em>
           </li>
         {{ end }}
       </ul>
     </section>
 
     <section class="simple-section" id="teaching">
-      <h2>Teaching & Service</h2>
+      <h2>Monash University-TA</h2>
       <ul>
         {{ range .Params.teaching }}
           <li>{{ . }}</li>

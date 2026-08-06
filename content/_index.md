@@ -47,9 +47,9 @@ publications:
         url: "https://link.springer.com/chapter/10.1007/978-981-96-9101-2_22"
 
 teaching:
-  - "Monash University (TA): FIT1093 Cybersecurity tools and techniques - S2 2025"
-  - "Monash University (TA): FIT5163 Introduction to cryptography for cybersecurity - S2 2025"
-  - "Monash University (TA): FIT5163 Introduction to cryptography for cybersecurity - S1 2026"
-  - "Monash University (TA): FIT1093 Cybersecurity tools and techniques - S2 2026"
-  - "Monash University (TA): FIT5163 Introduction to cryptography for cybersecurity - S2 2026"
+  - "FIT1093 Cybersecurity tools and techniques - S2 2025"
+  - "FIT5163 Introduction to cryptography for cybersecurity - S2 2025"
+  - "FIT5163 Introduction to cryptography for cybersecurity - S1 2026"
+  - "FIT1093 Cybersecurity tools and techniques - S2 2026"
+  - "FIT5163 Introduction to cryptography for cybersecurity - S2 2026"
 ---
