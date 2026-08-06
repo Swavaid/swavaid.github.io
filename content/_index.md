@@ -15,7 +15,7 @@ profile:
 intro:
   title: "I am a PhD student at Monash University working on lattice-based cryptography."
   paragraphs:
-    - "I started my PhD in 2025 at Monash University, supervised by Amin Sakzad, Ron Steinfeld, and Muhammad Esgin."
+    - "I started my PhD in 2025 at Monash University, supervised by Amin Sakzad, Ron Steinfeld, and Muhammed F. Esgin."
     - "My research interests are in lattice-based cryptography, with a focus on the mathematical foundations and practical design of cryptographic systems that remain secure in a post-quantum setting."
 education:
   - degree: "PhD"
