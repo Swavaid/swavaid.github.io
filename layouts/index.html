@@ -55,10 +55,10 @@
           <li>
             <strong>{{ .title }}</strong>
             {{ range .links }}
-              <a href="{{ .url }}">{{ .label }}</a>
+              <a href="{{ .url }}">[{{ .label }}]</a>
             {{ end }}<br>
-            {{ .authors }}<br>
-            <em>{{ .venue }}</em>
+            <em>{{ .venue }}</em><br>
+            {{ .authors }}
           </li>
         {{ end }}
       </ul>
