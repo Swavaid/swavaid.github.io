@@ -2,36 +2,38 @@ baseURL = 'https://swavaid.github.io/'
 locale = 'zh-cn'
 title = 'Jiahao Xuan'
 enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term', 'RSS']
 
 [params]
   author = 'Jiahao Xuan'
-  description = 'Jiahao Xuan 的学术主页：研究方向、论文、教学和个人简历。'
+  description = 'Jiahao Xuan 的学术主页。'
   github = 'https://github.com/Swavaid'
+  scholar = 'https://scholar.google.com/citations?user=LlPpVCMAAAAJ&hl=en'
 
 [pagination]
   pagerSize = 6
 
 [[menu.main]]
-  name = 'Home'
-  url = '/'
+  name = 'About'
+  url = '#about'
   weight = 10
 
 [[menu.main]]
   name = 'Research'
-  url = '/research/'
+  url = '#research'
   weight = 20
 
 [[menu.main]]
   name = 'Publications'
-  url = '/publications/'
+  url = '#publications'
   weight = 30
 
 [[menu.main]]
-  name = 'CV'
-  url = '/cv/'
+  name = 'Teaching'
+  url = '#teaching'
   weight = 40
 
 [[menu.main]]
-  name = 'Teaching'
-  url = '/teaching/'
+  name = 'Contact'
+  url = '#contact'
   weight = 50

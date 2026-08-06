@@ -6,20 +6,22 @@ profile:
   role: "PhD Student"
   affiliation: "Monash University"
   location: "Melbourne, Australia"
-  email: "email to be updated"
+  email: ""
   links:
-    - label: "GitHub"
-      url: "https://github.com/Swavaid"
     - label: "Google Scholar"
       url: "https://scholar.google.com/citations?user=LlPpVCMAAAAJ&hl=en"
-    - label: "CV"
-      url: "/cv/"
+    - label: "GitHub"
+      url: "https://github.com/Swavaid"
 intro:
-  eyebrow: "About"
   title: "I am a PhD student at Monash University working on lattice-based cryptography."
   paragraphs:
     - "I started my PhD in 2025 at Monash University, supervised by Amin Sakzad, Ron Steinfeld, and Muhammad Esgin."
     - "My research interests are in lattice-based cryptography, with a focus on the mathematical foundations and practical design of cryptographic systems that remain secure in a post-quantum setting."
+education:
+  - degree: "PhD Student"
+    institution: "Monash University"
+    years: "2025-present"
+    details: "Supervised by Amin Sakzad, Ron Steinfeld, and Muhammad Esgin."
 research:
   - title: "Lattice-Based Cryptography"
     text: "Studying cryptographic constructions based on lattice assumptions, motivated by post-quantum security."
@@ -41,4 +43,6 @@ publications:
     links:
       - label: "Google Scholar"
         url: "https://scholar.google.com/citations?user=LlPpVCMAAAAJ&hl=en"
+teaching:
+  - "Teaching and service to be updated."
 ---
