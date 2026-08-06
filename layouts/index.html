@@ -54,8 +54,8 @@
         {{ range .Params.publications }}
           <li>
             <strong>{{ .title }}</strong>{{ range .links }}&nbsp;<a href="{{ .url }}">[{{ .label }}]</a>{{ end }}<br>
-            <em>{{ .venue }}</em><br>
-            {{ .authors }}
+            {{ .authors }}<br>
+            <em>{{ .venue }}</em>
           </li>
         {{ end }}
       </ul>
